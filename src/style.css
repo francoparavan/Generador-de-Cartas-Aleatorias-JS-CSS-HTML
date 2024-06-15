@@ -6,13 +6,16 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: green;
+  background-image: url("https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2020/12/Getty-playing-cards-supersitions.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .container-fluid {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .carta {
@@ -53,5 +56,26 @@ body {
 
 .button {
   display: block;
+  font-weight: bold;
   margin: 30px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(225, 255, 0);
+  color: black;
+  font-size: 1.2em;
+}
+
+.button:active {
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.77);
+}
+
+h1 {
+  background-color: rgb(255, 30, 0);
+  font-weight: bolder;
+  border-radius: 7px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px 70px;
 }
